@@ -1,1 +1,20 @@
 /* write your override styles here */
+
+  #wall .tag-1 {
+    display: none;
+  }
+
+
+#wall #tag-2 {
+    display: none;
+  }
+/*Why: tag-2 = id & is under wall and it's a */
+
+
+<div id= "tag-2">
+<div style="display:none;">Remove Tag 2</div>
+</div>
+/*Tried to make style attribute highest specificity value= 1000/*
+
+
+/*html_tag + #(id)_or_.(class) */
